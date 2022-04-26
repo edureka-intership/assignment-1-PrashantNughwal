@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Places at Mumbai</title>
+    <link rel="icon" href="ed-blk.jpg">
+    <link rel="stylesheet" href="assignment.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">      
+        <img  class="homeicon" src="ed.jpg" alt="Edureka">
+        <div class="account">
+            <button class="login">Login</button>
+            <button class="signup">Create an account.</button>
+        </div>
+    </div>
+    <div class= "content" >
+        <h1><b>Breakfast Places in Mumbai</b></h1>
+        <div class="filter">
+            <h3>Filter</h3>
+            <p style="color: #192F60;"><label for="selectlocation">Select Location</label></p>
+            <select id="selectlocation" style="border: 1px solid rgba(140, 150, 171, 1);" >
+                <option selected disabled style="color: rgba(140, 150, 171, 1);;">Select Location</option>
+            </select>
+
+
+            <p>Cuisine</p>
+            <input type="checkbox" class="cb" name="Food" class="" id="northindain" >North Indian<br>
+            <input type="checkbox" class="cb" name="Food" id="southindian"checked>South Indian<br>
+            <input type="checkbox" class="cb" name="Food" id="chinese">Chinese<br>
+            <input type="checkbox" class="cb" name="Food" id="fastfood" checked>Fast Food<br>
+            <input type="checkbox" class="cb" name="Food" id="streetfood" >Street Food<br>
+            
+
+            <p>Cost For Two</p>
+            <input type="radio" class="rdo" name="cost"> Less than ₹500<br>
+            <input type="radio" class="rdo" name="cost" checked> ₹500 to ₹1000<br>
+            <input type="radio" class="rdo" name="cost"> ₹1000 to ₹1500<br>
+            <input type="radio" class="rdo" name="cost"> ₹1500 to ₹2000<br>
+            <input type="radio" class="rdo" name="cost">    +₹2000
+
+        
+
+            <h3 style="font-size:18px">Sort</h3>
+            <input type="radio" class="rdo" name="sort" checked> Price Low to High<br>
+            <input type="radio" class="rdo" name="sort"> Price High to Low
+        </div>
+
+        <div class="tiles">
+
+            <div class="tile1">
+                <div class="imgdiv">
+                    <img class="storeimg" src="food.jpg" alt="Place 1">
+                </div>
+                <div class="text2">
+                    <div class="maintext">The Big Chill Cakery</div>
+                    <div class="subtext">Fort</div>
+                    <div class="subtext2">Shop 1, Plot D, Samruddhi Complex, Chincholi...</div>
+                </div>
+                <hr style="border: 1px solid rgba(222, 223, 229, 1); width: 90%;">
+                <div class="text3">
+                    <div class="subtext2">CUISINES:</div>
+                    <div class="subtext2">COST FOR TWO:</div>
+                </div>
+                <div class="text4">
+                    <div class="subtext3">Bakery</div>
+                    <div class="subtext3">₹700</div>
+                </div>
+            </div>
+
+            
+            <div class="tile2">
+                
+                <div class="imgdiv">
+                    <img class="storeimg" src="food.jpg" alt="Place 1">
+                </div>
+                <div class="text2">
+                    <div class="maintext">The Bake Shop</div>
+                    <div class="subtext">Fort</div>
+                    <div class="subtext2">Shop 2, Plot D, Samruddhi Complex, Chincholi...</div>
+                </div>
+                <hr style="border: 1px solid rgba(222, 223, 229, 1); width: 90%;" >
+                <div class="text3">
+                    <div class="subtext2">CUISINES:</div>
+                    <div class="subtext2">COST FOR TWO:</div>
+                </div>
+                <div class="text4">
+                    <div class="subtext3">Bakery</div>
+                    <div class="subtext3">₹700</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="pagination"> 
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">&raquo;</a>
+        </div>      
+         
+    </div>
+</body>
+</html>
