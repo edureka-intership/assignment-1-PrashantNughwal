@@ -21,32 +21,43 @@
         <h1><b>Breakfast Places in Mumbai</b></h1>
         <div class="filter">
             <h3>Filter</h3>
-            <p style="color: #192F60;"><label for="selectlocation">Select Location</label></p>
+            <p style="color: #192F60;" class="label1"><label for="selectlocation">Select Location</label></p>
             <select id="selectlocation" style="border: 1px solid rgba(140, 150, 171, 1);" >
                 <option selected disabled style="color: rgba(140, 150, 171, 1);;">Select Location</option>
             </select>
 
 
             <p>Cuisine</p>
-            <input type="checkbox" class="cb" name="Food" class="" id="northindain" >North Indian<br>
-            <input type="checkbox" class="cb" name="Food" id="southindian"checked>South Indian<br>
-            <input type="checkbox" class="cb" name="Food" id="chinese">Chinese<br>
-            <input type="checkbox" class="cb" name="Food" id="fastfood" checked>Fast Food<br>
-            <input type="checkbox" class="cb" name="Food" id="streetfood" >Street Food<br>
+            <label for="northindain"> <input type="checkbox" class="cb" name="Food" class="" id="northindain" >North Indian<br></label>
+            <label for="southindian"><input type="checkbox" class="cb" name="Food" id="southindian"checked>South Indian<br></label>
+            <label for="chinese"><input type="checkbox" class="cb" name="Food" id="chinese">Chinese<br></label>
+            <label for="fastfood"><input type="checkbox" class="cb" name="Food" id="fastfood" checked>Fast Food<br></label>
+            <label for="streetfood"><input type="checkbox" class="cb" name="Food" id="streetfood" >Street Food<br></label>
             
 
-            <p>Cost For Two</p>
-            <input type="radio" class="rdo" name="cost"> Less than ₹500<br>
-            <input type="radio" class="rdo" name="cost" checked> ₹500 to ₹1000<br>
-            <input type="radio" class="rdo" name="cost"> ₹1000 to ₹1500<br>
-            <input type="radio" class="rdo" name="cost"> ₹1500 to ₹2000<br>
-            <input type="radio" class="rdo" name="cost">    +₹2000
-
+            <p>Cost For Two</p>           
+            <label for="cost1">
+                <input type="radio" class="rdo" name="cost" id="cost1"> Less than ₹500<br>
+            </label>
+            <label for="cost2">
+                <input type="radio" class="rdo" name="cost" id="cost2" checked> ₹500 to ₹1000<br>
+            </label>
+            <label for="cost3">
+                <input type="radio" class="rdo" name="cost" id="cost3"> ₹1000 to ₹1500<br>
+            </label>
+            <label for="cost4">
+                <input type="radio" class="rdo" name="cost" id="cost4"> ₹1500 to ₹2000<br>
+            </label>
+            <label for="cost5">
+                <input type="radio" class="rdo" name="cost" id="cost5">    +₹2000 <br>
+            </label>
         
-
             <h3 style="font-size:18px">Sort</h3>
-            <input type="radio" class="rdo" name="sort" checked> Price Low to High<br>
-            <input type="radio" class="rdo" name="sort"> Price High to Low
+            <label for="sort1">
+            <input type="radio" class="rdo" name="sort" id="sort1" checked> Price Low to High<br></label>
+            <label for="sort2">
+            <input type="radio" class="rdo" name="sort" id="sort2"> Price High to Low
+            </label>
         </div>
 
         <div class="tiles">
@@ -96,13 +107,13 @@
         </div>
         <footer>
             <div class="footerlinks"> 
-                <a href="#">&laquo;</a>
-                <a href="#">1</a>
-                <a href="#" class="active">2</a>
+                <a href="#" class="disable">❮</a>
+                <a href="#" class="currentpage">1</a>
+                <a href="#">2</a>
                 <a href="#">3</a>
                 <a href="#">4</a>
                 <a href="#">5</a>
-                <a href="#">&raquo;</a>
+                <a href="#">❯</a>
             </div>      
         </footer>
     </div>
