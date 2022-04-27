@@ -118,7 +118,7 @@ div.tile2{
     padding-left: 50px;
 }
 
-a{
+.footerlinks a{
     padding: 5px 12px 3px 12px;
     border: 2px solid #8C96AB;
     margin: 6px;
@@ -126,15 +126,14 @@ a{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
-
+    text-decoration: none;
 }
-.pagination{
+footer{
     margin-top: 150px;
     margin-left: 200px;
     display: inline-block;
-    vertical-align: bottom;
-    
-    
+    text-align: left;
+    border: 1px solid red;   
 }
 
 /* text color */
